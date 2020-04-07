@@ -9,20 +9,20 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <errno.h>
-#include "test.h"
+#include "pile.h"
 
 int main(void){
 
 	  Pile *pa = initialiser();
-      int taille = 0;
+          int taille = 0;
 
 	  printf("*********** The Stack is empty ******************\n");
 	  printf(" Push new elements in the stack \n");
 	  empiler(pa, 41);
 	  empiler(pa, 59);
 	  empiler(pa, 66);
-      taille_pile(pa, &taille);
-      printf(" The number of the element is: %d \n", taille);
+          taille_pile(pa, &taille);
+          printf(" The number of the element is: %d \n", taille);
 
 	  afficher(pa);
 	  printf(" The Stack after unstacking the Stack \n");
