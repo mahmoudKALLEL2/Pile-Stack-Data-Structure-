@@ -21,6 +21,6 @@ Returns true if stack is empty, else false.
 
 # cons :
 
-consumes more memory than arrays
-need to clear memory once we done with it.
-handling pointers is a bit tricky compared to arrays.. (but its needed for real time usage)
+- consumes more memory than arrays
+- need to clear memory once we done with it.
+- handling pointers is a bit tricky compared to arrays.. (but its needed for real time usage)
