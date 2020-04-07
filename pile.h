@@ -1,8 +1,8 @@
 /*
- * test.h
+ * pile.h
  *
  *  Created on: 5 avr. 2020
- *      Author: USER
+ *      Author: Mahmoud KALLEL
  */
 
 #ifndef PILE_H_
@@ -34,4 +34,4 @@ void afficher(Pile *pile);
 void taille_pile(Pile *pile, int *nbrElt);
 void reset(Pile *pile);
 
-#endif /* TEST_H_ */
+#endif /* PILE_H_ */
